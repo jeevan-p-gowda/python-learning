@@ -20,3 +20,8 @@ def test_greetCredit():
 
 def test_crossBrowser(crossBrowser):
     print(crossBrowser)
+
+
+def test_yield(exampleYield):
+    print("me")
+    print(exampleYield)

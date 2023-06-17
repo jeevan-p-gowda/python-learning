@@ -5,29 +5,30 @@ class MyClass:
     a, b = 10, "hi"  # class variables
 
     def __init__(self, name):
-        self.sample = name  # can create local variable called sample inside method directly, no need to mention in class
+        self.sample = name  # can create class variable inside method directly, no need to mention in class
         print(name)
         print("this is a constructor")
 
     # string type of constructor, only returns
     def __str__(self):
-        return (self.sample)
+        return self.sample
 
     def myFun(self):  # self represents the class
         pass
 
     def display(self):
         print(self.sample)
+        print(i, j)
         print('John')
 
     def printVariables(self, i, j):
         print(self.a, self.b)  # class variables accessed
         print(i, j)  # local variables accessed
         print(globals()['i'],
-              globals()['j'])  # global variables accesssed - use this when local variables have same name
+              globals()['j'])  # global variables accessed - use this when local variables have same name
 
     @staticmethod
-    def staticMethod(self):  # here self doesn't belongs to class
+    def staticMethod():
         print("This is a static method")
 
 
@@ -37,4 +38,4 @@ mc1.myFun()
 mc1.display()
 mc1.printVariables(9, 8)
 # static method can be accessed directly through class
-MyClass.staticMethod(100)
+MyClass.staticMethod()
