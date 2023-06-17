@@ -1,5 +1,5 @@
 
-<img align="right" src="/Users/JeevanP/Desktop/PythonLearning/pythonlogo.png">
+<img align="right" src="pythonlogo.png">
 
 Python Learning
 =
@@ -16,7 +16,7 @@ OOP's, File Handling - Context Managers, Exception Handling, Collections & Tips 
 
 
 
-<img align="right" src="/Users/JeevanP/Desktop/PythonLearning/Pytest_logo.png">
+<img align="right" src="Pytest_logo.png">
 
 PyTest Framework - 
 -
