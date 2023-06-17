@@ -1,6 +1,12 @@
 # dictionary is unordered, changeable(mutable) and unindexed.
 # It is enclosed with {} and has keys and values (like java hashmap)
-myDic = {101: 'x', 102: 'y', 103: 'z'}
+myDic = {101: {1: "x"}, 102: 'y', 103: 'z'}
+myDic1 = {101: {1: "x"}, 102: 'y', 103: 's'}
+if myDic == myDic1:
+    print("true")
+else:
+    print("false")
+
 print(myDic)
 print('fetching value')
 print(myDic[101])
@@ -8,7 +14,7 @@ print(myDic.get(101))
 
 # change value
 print('--change value--')
-myDic[101] = 's'
+myDic[101][1] = 's'
 print(myDic)
 
 for i in myDic:

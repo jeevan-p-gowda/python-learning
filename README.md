@@ -1,20 +1,51 @@
-PyTest commands to execute tests
 
-Go to project directory
+<img align="right" src="/Users/JeevanP/Desktop/PythonLearning/pythonlogo.png">
 
-#To run all tests with verbose and console output
+Python Learning
+=
+This repo has my learning on Python which encompasses following topics, essential for building an test framework.
+
+```python
+pip install -r requirements.txt
+```
+
+Concepts
+-
+OOP's, File Handling - Context Managers, Exception Handling, Collections & Tips & Tricks.
+
+
+
+
+<img align="right" src="/Users/JeevanP/Desktop/PythonLearning/Pytest_logo.png">
+
+PyTest Framework - 
+-
+Path - `./Pytest`
+
+PyTest `commands` to execute tests :-
+
+1.To run all tests with verbose and console output
+```python
 py.test -v -s
-
-#To run tests of particular python file
+```
+2.To run tests of particular python file
+```python
 py.test filename.py -v -s
-
-#To run test for particular methods using its name
+```
+3.To run test for particular methods using its name
+```python
 py.test -k methodname -v -s
-
-#To run test for marked methods using given name (Ex:- Smoke, Regression)
+```
+4.To run test for marked methods using given name (Ex:- Smoke, Regression)
+```python
 py.test -m givename -v -s
-
-Generating report 
+```
+5.Generating report 
+```python
 pytest --html=report.html
-
-(If causes any error then execute:- pip3 install pytest-html)
+```
+>If any error then execute:- 
+> ```python
+> pip3 install pytest-html
+> ```
+> 
