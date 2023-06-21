@@ -11,14 +11,14 @@ pip install -r requirements.txt
 
 Concepts
 -
-OOP's, File Handling - Context Managers, Exception Handling, Collections & Tips & Tricks.
+OOP's, File Handling - Context Managers, Exception Handling, Collections, Programs & Tips & Tricks.
 
 
 
 
 <img align="right" src="Pytest_logo.png">
 
-PyTest Framework - 
+PyTest Framework
 -
 Path - `./Pytest`
 
@@ -49,3 +49,10 @@ pytest --html=report.html
 > pip3 install pytest-html
 > ```
 > 
+
+
+
+<img align="right" src="Pandas.png">
+
+Pandas
+-
