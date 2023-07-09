@@ -1,5 +1,5 @@
 
-<img align="right" src="pythonlogo.png">
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg">
 
 Python Learning
 =
@@ -16,7 +16,7 @@ OOP's, File Handling - Context Managers, Exception Handling, Collections, Progra
 
 
 
-<img align="right" src="Pytest_logo.png">
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" width="100">
 
 PyTest Framework
 -
@@ -48,11 +48,9 @@ pytest --html=report.html
 > ```python
 > pip3 install pytest-html
 > ```
-> 
+>
 
-
-
-<img align="right" src="Pandas.png">
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="150">
 
 Pandas
 -
