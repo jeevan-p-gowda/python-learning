@@ -64,3 +64,6 @@ print('--copy the dict--')
 # myDic1 = myDic
 myDic1 = myDic.copy()  # same result
 print(myDic1)
+
+myDic.update({'name': 'jeevan'})
+print(myDic)
