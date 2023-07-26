@@ -5,7 +5,7 @@ Python Learning
 =
 This repo has my learning on Python which encompasses following topics, essential for building an test framework.
 
-```python
+```shell
 pip install -r requirements.txt
 ```
 
@@ -25,30 +25,31 @@ Path - `./Pytest`
 PyTest `commands` to execute tests :-
 
 1.To run all tests with verbose and console output
-```python
+```shell
 py.test -v -s
 ```
 2.To run tests of particular python file
-```python
+```shell
 py.test filename.py -v -s
 ```
 3.To run test for particular methods using its name
-```python
+```shell
 py.test -k methodname -v -s
 ```
 4.To run test for marked methods using given name (Ex:- Smoke, Regression)
-```python
+```shell
 py.test -m givename -v -s
 ```
 5.Generating report 
-```python
+```shell
 pytest --html=report.html
 ```
 >If any error then execute:- 
-> ```python
+> ```shell
 > pip3 install pytest-html
 > ```
 >
+
 
 <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="150">
 
