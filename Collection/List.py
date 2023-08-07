@@ -60,4 +60,18 @@ print(myList6)
 myList2.extend(myList1)
 print(myList2)
 
-
+# sorting - can be done in two ways
+li = [2, 9, 1, 5, 4, 7, 6]
+li2 = [-6, -5, -4, 1, 2, 3]
+print('Original list {}'.format(li))
+# Approach - 1
+# li.sort()
+# li.sort(reverse=True)
+# Approach - 2 - It is preferred because can sort any iterables like dict, list, tuple
+s_li = sorted(li)
+s_r_li = sorted(li, reverse=True)
+print('Sorted list {}'.format(s_li))
+print('Reversed list {}'.format(s_r_li))
+# using key=abs neglects whatever the sign may be assigned
+s_r_li2 = sorted(li2, key=abs)
+print('Sorted list irrespective of sign', s_r_li2)
