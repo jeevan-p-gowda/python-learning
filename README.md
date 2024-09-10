@@ -1,7 +1,4 @@
-
-<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg">
-
-Python Learning
+Python Learning <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg">
 =
 This repo has my learning on Python which encompasses following topics, essential for building an test framework.
 
@@ -13,12 +10,7 @@ Concepts
 -
 OOP's, File Handling - Context Managers, Exception Handling, Collections, Programs & Tips & Tricks.
 
-
-
-
-<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" width="100">
-
-PyTest Framework
+PyTest Framework <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" width="100">
 -
 Path - `./Pytest`
 
@@ -49,9 +41,3 @@ pytest --html=report.html
 > pip3 install pytest-html
 > ```
 >
-
-
-<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="150">
-
-Pandas
--
